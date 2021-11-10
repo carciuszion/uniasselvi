@@ -1,6 +1,6 @@
 package heranca;
 
-public abstract class Funcionario {
+public abstract class Funcionario  implements ICalculaSalario{
 	protected int codigo;
 	protected String nome;
 	protected double salario;
